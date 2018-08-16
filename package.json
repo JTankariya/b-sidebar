@@ -1,0 +1,58 @@
+{
+  "name": "b-sidebar",
+  "version": "1.2.0",
+  "description": "Vue2Sidebar: Bootstrap 4 sidebar component in Vue 2.0",
+  "keywords": [
+    "bootstrap-vue-sidebar",
+    "vue-sidebar",
+    "vue2-sidebar",
+    "b-sidebar",
+    "bootstrap-vue-sidenav",
+    "vue-sidenav",
+    "vue2-sidenav",
+    "b-sidenav"
+  ],
+  "author": "Jayesh Tankariya",
+  "license": "MIT",
+  "main": "dist/b-sidebar.js",
+  "unpkg": "dist/b-sidebar.min.js",
+  "scripts": {
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config=webpack.config.dev.js",
+    "vue": "cross-env NODE_ENV=development pm2 start webpack-dev-server — name vue — — open — hot",
+    "build": "node ./node_modules/webpack/bin/webpack.js --hide-modules -p --progress"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1",
+    "autoprefixer": "^7.1.2",
+    "postcss-import": "^12.0.0",
+    "postcss-url": "^8.0.0",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "font-awesome": "^4.7.0",
+    "html-webpack-plugin": "^2.30.1",
+    "jquery": "^3.3.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.4",
+    "style-loader": "^0.22.1",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^13.7.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
